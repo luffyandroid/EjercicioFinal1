@@ -38,7 +38,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="Obligatorio"
-                    android:inputType="date" />
+                    android:inputType="textPersonName" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -87,7 +87,7 @@
                     android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/editText4"
+                    android:id="@+id/etObservacion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -102,6 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
+            android:onClick="clickReservar"
             android:text="Reservar" />
     </RelativeLayout>
 

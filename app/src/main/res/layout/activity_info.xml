@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.didact.ejerciciofinal1.InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Su reserva" />
+
+                <TextView
+                    android:id="@+id/infoTvNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-Nombre:" />
+
+                <TextView
+                    android:id="@+id/infoTvNPersonas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-Número de personas:" />
+
+                <TextView
+                    android:id="@+id/infoTvDia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-Dia:" />
+
+                <TextView
+                    android:id="@+id/infoTvHora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-Hora:" />
+
+                <TextView
+                    android:id="@+id/infoTvObservaciones"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-Observaciones:" />
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:onClick="clickInicioinfo"
+            android:text="Inicio" />
+    </RelativeLayout>
+
+</LinearLayout>
