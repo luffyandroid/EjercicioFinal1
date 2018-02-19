@@ -8,4 +8,33 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="fondo">
+        <item name="android:background">@color/Wheat</item>
+
+    </style>
+    <style name="cabercera">
+
+        <item name="android:background">@drawable/cabecera</item>
+        <item name="android:layout_height">@dimen/d150</item>
+
+    </style>
+    <style name="boton">
+        <item name="android:background">@drawable/botoncambia</item>
+        <item name="android:textColor">#FFF0FC</item>
+        <item name="android:textSize">@dimen/s30</item>
+        <item name="android:shadowColor">#A82868</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+    <style name="texto">
+        <item name="android:textSize">@dimen/d20</item>
+        <item name="android:textColor">@color/Indigo</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="listview">
+        <item name="android:background">@drawable/lvcambia</item>
+        <item name="android:padding">@dimen/d5</item>
+
+    </style>
+
 </resources>

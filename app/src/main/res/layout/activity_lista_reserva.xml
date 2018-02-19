@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    style="@style/fondo"
     tools:context="com.example.didact.ejerciciofinal1.ListaReservaActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        style="@style/cabercera"
         android:orientation="vertical"></LinearLayout>
 
     <ListView

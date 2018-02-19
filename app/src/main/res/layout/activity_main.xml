@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    style="@style/fondo"
     tools:context="com.example.didact.ejerciciofinal1.MainActivity">
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        style="@style/cabercera"
         android:orientation="horizontal"></LinearLayout>
 
     <Button
@@ -18,6 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="clickReserva"
+        style="@style/boton"
         android:text="Hacer una reserva" />
 
     <Button
@@ -25,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="clickVerReservas"
+        style="@style/boton"
         android:text="Ver reservas" />
 
     <RelativeLayout
@@ -43,6 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Mi APP"
+                style="@style/texto"
                 android:textSize="18sp" />
 
             <Button
@@ -51,6 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="dialogInfo"
+                style="@style/boton"
                 android:text="Sobre nosotros" />
         </LinearLayout>
     </RelativeLayout>

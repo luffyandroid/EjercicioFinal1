@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    style="@style/fondo"
     tools:context="com.example.didact.ejerciciofinal1.InfoActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        style="@style/cabercera"
         android:orientation="horizontal"></LinearLayout>
 
     <RelativeLayout
@@ -29,36 +30,42 @@
                     android:id="@+id/textView8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    style="@style/texto"
                     android:text="Su reserva" />
 
                 <TextView
                     android:id="@+id/infoTvNombre"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    style="@style/texto"
                     android:text="-Nombre:" />
 
                 <TextView
                     android:id="@+id/infoTvNPersonas"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    style="@style/texto"
                     android:text="-Número de personas:" />
 
                 <TextView
                     android:id="@+id/infoTvDia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    style="@style/texto"
                     android:text="-Dia:" />
 
                 <TextView
                     android:id="@+id/infoTvHora"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    style="@style/texto"
                     android:text="-Hora:" />
 
                 <TextView
                     android:id="@+id/infoTvObservaciones"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    style="@style/texto"
                     android:text="-Observaciones:" />
 
             </LinearLayout>
@@ -73,6 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:onClick="clickInicioinfo"
+            style="@style/boton"
             android:text="Inicio" />
     </RelativeLayout>
 

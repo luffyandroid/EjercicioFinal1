@@ -2,24 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="100dp"
+    style="@style/listview"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/listTvNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/texto"
         android:text="Nombre" />
 
     <TextView
         android:id="@+id/listTvDia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/texto"
         android:text="Dia" />
 
     <TextView
         android:id="@+id/listTvHora"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/texto"
         android:text="Hora" />
 
 </LinearLayout>
